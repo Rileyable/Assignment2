@@ -6,7 +6,7 @@ const btnRoll = document.getElementById("spin");
 const btnReset = document.getElementById("reset");
 
 //add event listeners
-btnRoll.addEventListener("click", roll);
+btnRoll.addEventListener("click", spin);
 btnReset.addEventListener("click", initialise);
 
 //when page loaded
@@ -15,8 +15,8 @@ let total;
 
 initialise();
 
-//when roll button clicked
-function roll() {
+//when spin button clicked
+function spin() {
    
     let dice = Math.floor(Math.random() * 6) + 1;
     imgDice.setAttribute("src", "images/fruit1.png" + dice + ".png");
