@@ -2,7 +2,7 @@
 const imgDice = document.getElementById("dice");
 const txtOutput = document.getElementById("output");
 const txtThrows = document.getElementById("throws");
-const btnRoll = document.getElementById("roll");
+const btnRoll = document.getElementById("spin");
 const btnReset = document.getElementById("reset");
 
 //add event listeners
@@ -24,7 +24,7 @@ function roll() {
     total += dice; 
 
     txtThrows.innerText += `Throw: ${dice}\n`;
-    txtOutput.innerText = `Number of throws: ${count}\nTotal thrown: ${total}`;  
+    txtOutput.innerText = `Number of spins: ${count}\nTotal spun: ${total}`;  
 }
 
 
