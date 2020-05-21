@@ -1,0 +1,11 @@
+#output, #throws{
+    min-height: 50px;
+    border: 1px solid black; 
+    width:328px; 
+  }
+  
+  img {
+    display: block;
+    margin-bottom: 1em;
+  }
+  
