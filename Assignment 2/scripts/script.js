@@ -23,7 +23,7 @@ function spin() {
     count++;
     total += dice; 
 
-    txtThrows.innerText += `Throw: ${dice}\n`;
+    txtThrows.innerText += `Spin: ${dice}\n`;
     txtOutput.innerText = `Number of spins: ${count}\nTotal spun: ${total}`;  
 }
 
